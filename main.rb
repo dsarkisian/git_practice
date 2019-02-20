@@ -5,6 +5,7 @@ def puts_git(cmd)
 end
 
 def menu 
+  puts 'Main Menu!'
   puts '1: Enter git command'
   puts '2: Exit'
   choice = gets.to_i
